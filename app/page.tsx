@@ -68,7 +68,9 @@ export default function Home() {
           <h2>AI <span>•</span> Data <span>•</span> FinTech</h2>
           <p className="lead">Computer Science graduate and Master&apos;s student in Artificial Intelligence at Kennesaw State University. I build intelligent systems that turn data into decisions, with a focus on AI, data, fintech, payments, compliance and cloud technologies.</p>
           <div className="actions"><a className="primary" href="#projects">View My Projects <b>→</b></a><a className="secondary" href="#contact">Get In Touch</a></div>
-          <div className="socials"><a href="https://github.com/" target="_blank">GH</a><a href="https://www.linkedin.com/" target="_blank">in</a><a href="mailto:your@email.com">✉</a><a href="/resume.pdf">CV</a></div>
+          <div className="socials"><a href="https://github.com/" target="_blank">GH</a><a href="linkedin.com/in/samuel-yeneneh-588476210/" target="_blank">in</a><a href="samuelandualem93@gmail.com
+
+">✉</a><a href="/resume.pdf">CV</a></div>
         </div>
         <div className="heroVisual">
           <div className="window"><div className="dots"><i/><i/><i/></div><div className="code"><span>const</span> future = <span>await</span> build();<br/><br/><span>function</span> <b>solve</b>(problem) {'{'}<br/> &nbsp; data = analyze(problem);<br/> &nbsp; model = train(data);<br/> &nbsp; <span>return</span> impact(model);<br/>{'}'}</div></div>
