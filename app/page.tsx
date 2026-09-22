@@ -68,7 +68,7 @@ export default function Home() {
           <h2>AI <span>•</span> Data <span>•</span> FinTech</h2>
           <p className="lead">Computer Science graduate and Master&apos;s student in Artificial Intelligence at Kennesaw State University. I build intelligent systems that turn data into decisions, with a focus on AI, data, fintech, payments, compliance and cloud technologies.</p>
           <div className="actions"><a className="primary" href="#projects">View My Projects <b>→</b></a><a className="secondary" href="#contact">Get In Touch</a></div>
-          <div className="socials"><a href="https://github.com/SamiAndu/" target="_blank">GH</a><a href="linkedin.com/in/samuel-yeneneh-588476210/" target="_blank">in</a><a href="samuelandualem93@gmail.com
+          <div className="socials"><a href="https://github.com/SamiAndu/" target="_blank">GH</a><a href="linkedin.com/in/samuel-yeneneh-588476210/" target="_blank">in</a><a href="mailto:samuelandualem93@gmail.com
 
 ">✉</a><a href="/resume.pdf">CV</a></div>
         </div>
@@ -116,7 +116,13 @@ export default function Home() {
 
       <section id="skills" className="section light"><div className="sectionHead"><div><p className="eyebrow">TECHNOLOGY</p><h2>Skills</h2><p>Tools and concepts I work with.</p></div></div><div className="skillCloud">{skills.map(s=><span key={s}>{s}</span>)}</div></section>
 
-      <section id="contact" className="contact section"><p className="eyebrow">LET&apos;S CONNECT</p><h2>Interested in working together?</h2><p>I&apos;m open to discussing opportunities, projects, research and ideas in AI, data and fintech.</p><div className="actions"><a className="primary" href="mailto:your@email.com">Get In Touch →</a><a className="secondary" href="https://github.com/" target="_blank">GitHub ↗</a><a className="secondary" href="https://www.linkedin.com/" target="_blank">LinkedIn ↗</a></div></section>
+      <section id="contact" className="contact section"><p className="eyebrow">LET&apos;S CONNECT</p><h2>Interested in working together?</h2><p>I&apos;m open to discussing opportunities, projects, research and ideas in AI, data and fintech.</p><div className="actions"><a  className="primary"
+
+                                                                                                                                                                                                                                                                                 href="https://mail.google.com/mail/?view=cm&fs=1&to=samuelandualem93@gmail.com"
+
+                                                                                                                                                                                                                                                                                 target="_blank"
+
+                                                                                                                                                                                                                                                                                 rel="noreferrer">Get In Touch →</a><a className="secondary" href="https://github.com/SamiAndu/" target="_blank">GitHub ↗</a><a className="secondary" href="www.linkedin.com/in/samuel-yeneneh-588476210/" target="_blank">LinkedIn ↗</a></div></section>
       <footer>© 2026 Samuel Yeneneh <span>AI • Data • FinTech</span><a href="#home">Back to top ↑</a></footer>
     </main>
   )
